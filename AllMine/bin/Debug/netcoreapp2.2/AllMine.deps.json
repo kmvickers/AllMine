@@ -1,0 +1,98 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "3c96b334d05a30babd8dcee46318ab40084c25c2"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "AllMine/1.0.0": {
+        "dependencies": {
+          "CommandLine.Net": "1.5.2",
+          "SimpleInjector": "4.5.2"
+        },
+        "runtime": {
+          "AllMine.dll": {}
+        }
+      },
+      "CommandLine.Net/1.5.2": {
+        "dependencies": {
+          "OutputColorizer": "1.1.0"
+        },
+        "runtime": {
+          "lib/netstandard1.5/CommandLine.dll": {
+            "assemblyVersion": "1.5.2.0",
+            "fileVersion": "1.5.2.0"
+          }
+        }
+      },
+      "OutputColorizer/1.1.0": {
+        "runtime": {
+          "lib/netstandard1.3/OutputColorizer.dll": {
+            "assemblyVersion": "1.2.0.0",
+            "fileVersion": "1.2.0.0"
+          }
+        }
+      },
+      "SimpleInjector/4.5.2": {
+        "dependencies": {
+          "System.ComponentModel": "4.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/SimpleInjector.dll": {
+            "assemblyVersion": "4.5.2.0",
+            "fileVersion": "4.5.2.0"
+          }
+        }
+      },
+      "System.ComponentModel/4.0.1": {
+        "dependencies": {
+          "System.Runtime": "4.1.0"
+        }
+      },
+      "System.Runtime/4.1.0": {}
+    }
+  },
+  "libraries": {
+    "AllMine/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommandLine.Net/1.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IKF1zrJZGFjgF+sH4vfRFdPBy32GxsggVaw8vJphM9G+g7y3IXvhMUJsiGKVkeFp3frTDd67VzEusJr5g/9bNQ==",
+      "path": "commandline.net/1.5.2",
+      "hashPath": "commandline.net.1.5.2.nupkg.sha512"
+    },
+    "OutputColorizer/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/6E0nXu+06PwdZHHDVsKzzSN7fnfLCenzNHYXgUx4ed9TkDN5FV0UODT0sm7ssU4H6NZF10t4RnpxpSQeC8S1Q==",
+      "path": "outputcolorizer/1.1.0",
+      "hashPath": "outputcolorizer.1.1.0.nupkg.sha512"
+    },
+    "SimpleInjector/4.5.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hNh6IJdWDuVDdfLmuP38Q6PTYMZ3chA/TiKFiandQP7Ij4D2Yhw35IsOUb45iaYb/qQ18xCSOnl+HEcNaqGUGQ==",
+      "path": "simpleinjector/4.5.2",
+      "hashPath": "simpleinjector.4.5.2.nupkg.sha512"
+    },
+    "System.ComponentModel/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-oBZFnm7seFiVfugsIyOvQCWobNZs7FzqDV/B7tx20Ep/l3UUFCPDkdTnCNaJZTU27zjeODmy2C/cP60u3D4c9w==",
+      "path": "system.componentmodel/4.0.1",
+      "hashPath": "system.componentmodel.4.0.1.nupkg.sha512"
+    },
+    "System.Runtime/4.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-v6c/4Yaa9uWsq+JMhnOFewrYkgdNHNG2eMKuNqRn8P733rNXeRCGvV5FkkjBXn2dbVkPXOsO0xjsEeM1q2zC0g==",
+      "path": "system.runtime/4.1.0",
+      "hashPath": "system.runtime.4.1.0.nupkg.sha512"
+    }
+  }
+}

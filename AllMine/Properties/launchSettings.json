@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "AllMine": {
+      "commandName": "Project",
+      "commandLineArgs": "-h 12 -w 10 -m 12"
+    }
+  }
+}
